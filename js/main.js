@@ -1,11 +1,6 @@
-/*require("dotenv").config();
-const apiKey= process.env.WEATHER_API_KEY;
-idk how to hide this api key help above code is not working*/
-
-import WEATHER_API_KEY from "./js/apikey.js";
+import WEATHER_API_KEY from "./apikey.js";
 
 const apiKey=WEATHER_API_KEY;
-
 const apiURL="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const searchBox = document.querySelector('.search input');
 const searchButton = document.querySelector('.search button');
